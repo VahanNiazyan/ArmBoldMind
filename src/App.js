@@ -35,7 +35,6 @@ class App extends React.Component {
                 <header>
                     <div className="header-main">
                         <img className="iconNav" src={iconsNav} alt="iconsNav" />
-                        {/* <span className="fa fa-bars"></span> */}
                         <div className="group-icon">
                             <img src={IconSearch} alt="header_icon2" />
                             <img src={IconMan} alt="header_icon3" />
@@ -45,7 +44,6 @@ class App extends React.Component {
 
                 <section className="main-Images">
                     <div className="cover">
-                        {/* <img className="main-img" src={mainImg} style={{ width: "100%" }} alt="main-img"/> */}
                     </div>
 
                     <div className="foundation">
@@ -301,7 +299,6 @@ class App extends React.Component {
                             <p>Mail: &ensp; <span> charity@gmail.com</span></p>
 
                         </div>
-
                         <div className="footer-compony">
                             <h4>Company</h4>
                             <ul>
@@ -312,6 +309,7 @@ class App extends React.Component {
                                 <li>News</li>
                             </ul>
                         </div>
+
                         <div className="footer-halp">
                             <h4>Help and Support</h4>
                             <ul>
